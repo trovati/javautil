@@ -11,8 +11,10 @@ public class Teste {
 		
 		int idade = 29; //Integer
 		
-		Integer idadeRef = new Integer(29);
+		Integer idadeRef = Integer.valueOf(29); //autoboxing
+		int valor = idadeRef.intValue(); //unboxing
 		
+		String s = args[0];
 		
 		List <Integer> numeros = new ArrayList<Integer>();
 		numeros.add(29);
